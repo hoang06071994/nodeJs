@@ -1,0 +1,11 @@
+
+.changePass {
+    width: 400px;
+    margin: 0 auto;
+}
+.changePass label{
+    margin: 10px;
+}
+.changePass input {
+    margin: 10px;
+}

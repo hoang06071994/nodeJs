@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./view/home.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>day la trang home</h1>
+    <div >
+        <table>
+            <tr>
+                <th>stt</th>
+                <th>name</th>
+                <th>price</th>
+                <th>amount</th>
+                <th>color</th>
+            </tr>
+            <tbody class="listProduct"></tbody>
+        </table>
+    </div>
+    <div class="page">
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td><label for="name">name</label></td>
+                <td><input type="text" name="" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="price">price</label></td>
+                <td><input type="number" name="" id="price"></td>
+            </tr>
+            <tr>
+                <td><label for="amount">amount</label></td>
+                <td><input type="number" name="" id="amount"></td>
+            </tr>
+            <tr>
+                <td><label for="color">color</label></td>
+                <td><input type="text" name="" id="color"></td>
+            </tr>
+            <tr>
+                <td><label for="status">status</label></td>
+                <td><input type="text" name="" id="status"></td>
+            </tr>
+        </table>
+        <button onclick="createNewProduct()">create New Product</button>
+        <button onclick="reset()">reset</button>
+        <p id="newProductText"></p>
+    </div>
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./view/home.js"></script>
+</html>
